@@ -1,13 +1,18 @@
 import './App.css'
-import { NavBar } from './components/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
+import { NavBar } from './components/NavBar/NavBar'
+import { Home } from './components/Home/Home'
+import { Banner } from './components/Banner/Banner'
 
 function App() {
 
   return (
-    <div >
+    < >
+      <Home />
       <NavBar />
-    </div>
+      <Banner />
+    </>
   )
 }
 

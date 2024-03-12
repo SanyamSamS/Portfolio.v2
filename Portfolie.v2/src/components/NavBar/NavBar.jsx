@@ -1,6 +1,7 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
-import '../App.css';
+import '../../App.css';
+import './NavBar.css';
 
 export const NavBar = () => {
     const [active, setActive] = useState('home');
