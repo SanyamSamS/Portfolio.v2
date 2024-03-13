@@ -1,11 +1,13 @@
-import { Container } from "react-bootstrap"
+import { Container, Row } from "react-bootstrap"
 
 export const Banner = () => {  
     return (
         <div>
             <Container>
-                <h1>Sanyam</h1>
-                <p >Full Stack Developer</p>
+                <Row>
+                    <Col> 
+                        <h2>Hi, I'm <span>Sanyam</span></h2>
+                    </Col>
             </Container>
         </div>
     )
