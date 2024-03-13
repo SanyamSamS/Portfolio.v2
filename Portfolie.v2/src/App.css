@@ -11,7 +11,7 @@ html {
 
 body {
   position: relative;
-  background-color: var(--color-bg) !important;
+  background-color: white !important;
   color: var(--color-text) !important;
 }
 
