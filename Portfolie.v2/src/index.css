@@ -97,21 +97,15 @@ section h2 {
 
 /* Mobile */
 @media screen and (max-width: 600px){
-  .container {
-    color: red;
-  }
+
 }
 
 /* Tablet */
 @media screen and (min-width: 600px) and (max-width: 1024px){
-  .container {
-    color: green;
-  }
+
 }
 
 /* Desktop */
 @media screen and (min-width: 1024px){
-  .container {
-    color: purple;
-  }
+
 }
