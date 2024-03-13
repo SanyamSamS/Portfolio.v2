@@ -1,0 +1,23 @@
+.home-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+  
+.home-img {
+    max-height: 50%; 
+    max-width: 50%;
+    margin-bottom: 20px; 
+}
+  
+.intro-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+  
+.intro-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+  
+
+  

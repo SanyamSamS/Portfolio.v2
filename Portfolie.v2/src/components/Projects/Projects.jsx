@@ -24,8 +24,8 @@ export const Projects = () => {
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>
                   <div className="project-links">
-                    <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">Live Demo</a>
-                    <a href={project.codeUrl} target="_blank" rel="noopener noreferrer">Source Code</a>
+                    <a className='btn-primary' href={project.demoUrl} target="_blank" rel="noopener noreferrer">Live Demo</a>
+                    <a className='btn-primary' href={project.codeUrl} target="_blank" rel="noopener noreferrer">Source Code</a>
                   </div>
                 </div>
               ))}
