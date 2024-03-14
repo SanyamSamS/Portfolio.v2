@@ -9,39 +9,34 @@ export const About = () => {
           <div className="row">
 
             {/* Me Box */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-4 col-sm-12">
               <div className="info-box">
                 <h3>Me</h3>
-                <p>A brief introduction about yourself, your interests, or background.</p>
+                <p>Me</p>
               </div>
             </div>
 
             {/* Skills Box */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-4 col-sm-12">
               <div className="info-box">
                 <h3>Skills</h3>
                 <ul>
                   <li>HTML, CSS, JavaScript</li>
                   <li>React</li>
-                  <li>Node.js</li>
+                  <li>MongoDB, SQL</li>
+                  <li>Node.js, Express.js</li>
                   {/* Add more skills as needed */}
                 </ul>
               </div>
             </div>
 
             {/* Education Box */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-4 col-sm-12">
               <div className="info-box">
                 <h3>Education</h3>
-                <p>Your educational background, degrees, certifications, etc.</p>
-              </div>
-            </div>
-            
-            {/* Experience Box */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="info-box">
-                <h3>Experience</h3>
-                <p>Overview of your professional experience and major projects.</p>
+                <p>University of Toronto Full Stack Development Certificate</p>
+                <p>University of Toronto Honours Bachelor of Science</p>
+                <p>Immigration Pracitioner Diploma: Law, Policies and Procedure</p>
               </div>
             </div>
           </div>

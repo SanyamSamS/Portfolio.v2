@@ -11,6 +11,7 @@ export const Home = () => {
               <h1>Hi I'm Sanyam</h1>
               <p>Full Stack Web Developer.</p>
               <a href="#about" className="btn btn-primary">Learn More</a>
+              <a href="#" className="btn btn-secondary">Resume</a>
             </div>
           </div>
         </section>
