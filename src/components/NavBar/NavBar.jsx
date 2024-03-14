@@ -4,6 +4,7 @@ import '../../App.css';
 import './NavBar.css';
 
 export const NavBar = () => {
+
     const [active, setActive] = useState('home');
     const [scrolled, setScrolled] = useState(false);
 
@@ -21,7 +22,7 @@ export const NavBar = () => {
     }, []);
 
     return (
-        <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+        <Navbar expand="lg" className= {scrolled ? "scrolled fixed-top" : "fixed-top"}>
             <Container>
                 <Navbar.Brand href="#home">
                     Sanyam
@@ -58,4 +59,4 @@ export const NavBar = () => {
             </Container>
         </Navbar>
     )
-    }
+}
