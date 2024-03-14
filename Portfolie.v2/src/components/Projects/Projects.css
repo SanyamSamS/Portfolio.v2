@@ -1,0 +1,70 @@
+/* Projects Section */
+.projects-section {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Project Cards Styling */
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Project Images */
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+/* Project Description */
+.project-description {
+  padding: 1rem;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
+.project-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Buttons and Links */
+.project-btn {
+  display: inline-block;
+  margin: 1rem 0.5rem 1rem 0;
+  padding: 0.375rem 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.project-btn:hover {
+  background-color: #0056b3;
+}
+
+.project {
+  margin-bottom: 2rem;
+}
+
+/* Adjusts the layout for smaller screens */
+@media (max-width: 768px) {
+  .project-card {
+    margin-bottom: 1rem;
+  }
+}
