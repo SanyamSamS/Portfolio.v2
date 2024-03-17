@@ -3,6 +3,7 @@
   padding: 4rem 0;
   background-color: #f8f9fa;
   color: #333;
+  margin-top: 2rem;
 }
 
 /* Project Cards Styling */
@@ -47,7 +48,7 @@
   display: inline-block;
   margin: 1rem 0.5rem 1rem 0;
   padding: 0.375rem 0.75rem;
-  background-color: #007bff;
+  background-color: var(--color-primary);
   color: #fff;
   border-radius: 0.25rem;
   text-decoration: none;
@@ -55,7 +56,7 @@
 }
 
 .project-btn:hover {
-  background-color: #0056b3;
+  background-color: var(--color-primary-dark);
 }
 
 .project {

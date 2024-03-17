@@ -25,8 +25,8 @@ export const Home = () => {
           <div className="intro-text">
             <h1>Hi I'm Sanyam</h1>
             <p>Full Stack Web Developer.</p>
-            <a href="#about" className="btn btn-primary">Learn More</a>
-            <a onClick={handleDownload} href="#" className="btn btn-secondary">Resume</a>
+            <a href="#about" className="btn-primary">Learn More</a>
+            <a onClick={handleDownload} href="#" className="btn-secondary">Resume</a>
           </div>
         </div>
       </section>

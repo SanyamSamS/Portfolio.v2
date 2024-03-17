@@ -1,18 +1,18 @@
 /* General navbar styling */
 .navbar {
-    background-color: #fff; /* Change this to match your site's theme */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-primary-bg); /* Change this to match your site's theme */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     transition: background-color 0.3s ease;
 }
   
 .navbar.scrolled {
-    background-color: #f8f9fa; /* Darker shade when scrolled */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--color-primary-bg);  /* Darker shade when scrolled */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .navbar-brand {
     font-weight: bold;
-    color: #007bff; /* Bootstrap primary color; adjust as needed */
+    color: var(--color-primary);/* Bootstrap primary color; adjust as needed */
 }
 
 /* Navbar link styling */
@@ -23,13 +23,13 @@
 
 .navbar-link:hover,
 .navbar-link.active {
-    color: #007bff; /* Highlight color on hover and when active */
+    color: var(--color-primary); /* Highlight color on hover and when active */
 }
 
 /* Active link styling */
 .active {
     font-weight: bold;
-    color: #007bff !important;
+    color: var(--color-primary) !important;
 }
 
 .navbar-toggler {
