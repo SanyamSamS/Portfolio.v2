@@ -16,11 +16,13 @@
 
 /* Variables */ 
 :root {
-  --color-bg: #121212;
-  --color-bg-box: #1a1a1a;
+  --color-bg: #0F4C75;
+  --color-bg-box: #1B262C;
   --color-text: black;
-  --color-primary: #007bff;
+  --color-primary: green;
+  --color-primary-dark: #0056b3;
   --color-secondary: #6c757d;
+  --color-secondary-dark: #545b62;
   --color-white: #fff;
   --color-light: #f8f9fa;
 
