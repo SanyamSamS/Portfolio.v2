@@ -21,11 +21,15 @@ export const About = () => {
           <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="info-box">
               <h3>Skills</h3>
-              <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React</li>
-                <li>MongoDB, SQL</li>
-                <li>Node.js, Express.js</li>
+              <ul className='skill-list'>
+                <li><i className="fa fa-html5"></i> HTML</li>
+                <li><i className="fa fa-css3"></i> CSS</li>
+                <li><i className="material-symbols-outlined">javascript</i> JavaScript</li>
+                <li><i className="fa-brands fa-react"></i> React.js</li>
+                <li><i className="fa fa-database"></i> MongoDB, SQL</li>
+                <li><i className="fa fa-node-js"></i> Node.js, Express.js</li>
+                <li><i className="fa fa-bootstrap"></i> Bootstrap, <i className="fa fa-wind"></i> Tailwind</li>
+                <li><i className="fa fa-github"></i> GitHub</li>
               </ul>
             </div>
           </div>

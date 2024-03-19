@@ -1,6 +1,6 @@
 .about-section {
   padding: 4rem 0;
-  background-color: #fff;
+  background-color: var(--color-bg-section);
   color: #333;
 }
   
@@ -22,6 +22,7 @@
 .skill-list {
   list-style-type: none;
   padding: 0;
+  text-align: left;
 }
 
 .skill-list li {
