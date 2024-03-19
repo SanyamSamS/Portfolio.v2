@@ -6,24 +6,25 @@
 }
   
 .navbar.scrolled {
-    background-color: var(--color-primary-bg);  /* Darker shade when scrolled */
+    background-color: var(--color-bg-nav);
+    opacity: 0.5;
     /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .navbar-brand {
     font-weight: bold;
-    color: var(--color-primary);/* Bootstrap primary color; adjust as needed */
+    color: var(--color-primary);
 }
 
 /* Navbar link styling */
     .navbar-link {
-    color: #555; /* Default link color */
+    color: #555; 
     transition: color 0.3s ease;
 }
 
 .navbar-link:hover,
 .navbar-link.active {
-    color: var(--color-primary); /* Highlight color on hover and when active */
+    color: var(--color-primary); 
 }
 
 /* Active link styling */
@@ -37,6 +38,6 @@
 }
 
 .nav-link {
-    margin-right: 15px; /* Spacing between links */
+    margin-right: 15px; 
     padding: 5px 0; 
 }

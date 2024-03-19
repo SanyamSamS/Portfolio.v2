@@ -1,7 +1,7 @@
 import '../../App.css';
 import './Contact.css';
 import { useState, useRef } from 'react';
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
 
@@ -36,17 +36,39 @@ export const Contact = () => {
       <div className="row">
         
           <h2>Contact Me</h2>
-          <p>Get in touch!</p>
 
-          <div className="col-lg-6 col-md-6 col-sm-12 order-md-1 order-2">
-            <div className="contact-info">
-              <p>Email: sanyam.edu@gmail.com</p>
-              <p>GitHub: SanyamSamS</p>
+          <div className="contact-info col-lg-6 col-md-6 col-sm-12 order-md-2 order-2 row">
+
+            <div className="contact-box">
+              <a href="#contact" className="contact-box">
+                <i class="fa fa-envelope"></i>
+                <h4>Email</h4>
+                <p>sanyam.edu@gmail.com</p>
+              </a>
             </div>
+
+            <div className="contact-box">
+              <a href="https://github.com/SanyamSamS" className="contact-box" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-github"></i>
+                <h4>GitHub</h4>
+                <p>SanyamSamS</p>
+              </a>
+            </div>
+
+            <div className="contact-box">
+              <a href="https://www.linkedin.com/in/sanyam-singh-a16a83200/" className="contact-box" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-linkedin"></i>
+                <h4>LinkedIn</h4>
+                <p>Sanyam (Sam) Singh</p>
+              </a>
+            </div>
+
           </div>
+
           
           <div className="col-lg-6 col-md-6 col-sm-12 order-md-2 order-1">
             <form ref={formRef} onSubmit={sendEmail} className="contact-form">
+              <h3>Send me a message</h3>
               <input type="text" placeholder="Your Name" required onChange={handleChange} name='name' value={name}/>
               <input type="email" placeholder="Your Email" required onChange={handleChange} name='email' value={email} />
               <textarea placeholder="Your Message" required onChange={handleChange} name='message' value={message}></textarea>

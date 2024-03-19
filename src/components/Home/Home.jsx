@@ -24,7 +24,7 @@ export const Home = () => {
           <img src={meLaptopImg} alt="Me with Laptop" className="home-img" />
           <div className="intro-text">
             <h1>Hi I'm Sanyam</h1>
-            <p>Full Stack Web Developer.</p>
+            <p>Full Stack Web Developer</p>
             <a href="#about" className="btn-primary">Learn More</a>
             <a onClick={handleDownload} href="#" className="btn-secondary">Resume</a>
           </div>

@@ -1,6 +1,7 @@
 .home-section {
     text-align: center;
     padding: 40px 20px;
+    background-color: var(--color-bg-section);
 }
   
 .home-img {
