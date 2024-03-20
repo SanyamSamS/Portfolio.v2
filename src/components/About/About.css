@@ -37,7 +37,6 @@
 .skill-list i {
   font-size: 1rem;
   color: var(--color-primary);
-  margin-right: 10px;
 }
 
 .info-box {
@@ -46,6 +45,8 @@
   background-color: var(--color-bg-box);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex-grow: 1;
+  height: 100%;
 }
 
 .info-box h3 {
