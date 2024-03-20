@@ -22,7 +22,7 @@
 .skill-list {
   list-style-type: none;
   padding: 0;
-  text-align: left;
+  text-align: center;
 }
 
 .skill-list li {
@@ -41,12 +41,12 @@
 
 .info-box {
   padding: 20px;
-  margin: 10px 0;
+  margin: 0px 10px;
   background-color: var(--color-bg-box);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   flex-grow: 1;
-  height: 100%;
+  height: 95%;
 }
 
 .info-box h3 {
