@@ -1,9 +1,8 @@
 /* Projects Section */
 .projects-section {
-  padding: 4rem 0;
+  padding: 2rem 0;
   background-color: var(--color-bg-section);
   color: #333;
-  margin-top: 2rem;
 }
 
 /* Project Cards Styling */
