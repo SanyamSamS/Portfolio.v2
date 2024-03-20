@@ -1,5 +1,6 @@
 import '../../App.css';
 import './About.css';
+import jsIcon from '../../assets/img/js-icon.png';
 
 export const About = () => {
   
@@ -7,7 +8,7 @@ export const About = () => {
     <section id="about" className="about-section">
       <div className="container">
         <h2>About Me</h2>
-        <div className="row">
+        <div className="row gx-3">
 
           {/* Me Box */}
           <div className="col-lg-4 col-md-4 col-sm-12">
@@ -24,7 +25,7 @@ export const About = () => {
               <ul className='skill-list'>
                 <li><i className="fa fa-html5"></i> HTML</li>
                 <li><i className="fa fa-css3"></i> CSS</li>
-                <li><i className="material-symbols-outlined">javascript</i> JavaScript</li>
+                <li><img src={jsIcon} /> JavaScript</li>
                 <li><i className="fa-brands fa-react"></i> React.js</li>
                 <li><i className="fa fa-database"></i> MongoDB, SQL</li>
                 <li><i className="fa fa-node-js"></i> Node.js, Express.js</li>
