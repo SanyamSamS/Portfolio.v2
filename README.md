@@ -1,8 +1,25 @@
-# React + Vite
+# Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This React.js portfolio project showcases skills and projects through a modern, responsive design. Utilizing React.js and Bootstrap for seamless user experiences across devices, it features sections for an introduction, skills, projects, and a contact form. 
 
-Currently, two official plugins are available:
+## Technologies Used
+- React.js
+- Bootstrap
+- Node.js 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+List the main features of your portfolio, such as:
+- Responsive design
+- Project showcase with images and links
+- Contact form integration
+
+## Deployment
+[Live link](https://jolly-bublanina-35ca08.netlify.app/)
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
+## Contact
+Sanyam 'Sam' Singh  - sanyam.edu@gmail.com
