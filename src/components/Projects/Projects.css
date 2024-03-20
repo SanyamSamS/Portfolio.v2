@@ -22,10 +22,14 @@
 
 /* Project Images */
 .project-image {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* Makes the image responsive */
+  max-height: 200px; /* Adjust based on your preference */
+  /* width: auto; Keeps image aspect ratio */
+  /* height: auto; Keeps image aspect ratio */
+  display: block; /* Removes any extra space below the image */
+  object-fit: cover;
   border-radius: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0.25rem auto; /* This centers the image */
 }
 
 /* Project Description */
