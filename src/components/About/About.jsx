@@ -1,6 +1,5 @@
 import '../../App.css';
 import './About.css';
-import jsIcon from '../../assets/img/js-icon.png';
 
 export const About = () => {
   
@@ -11,7 +10,7 @@ export const About = () => {
         <div className="row gx-3">
 
           {/* Skills Box */}
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 order-2">
             <div className="info-box">
               <h3>Skills</h3>
               <ul className='skill-list'>
@@ -30,7 +29,7 @@ export const About = () => {
           </div>
 
           {/* Me Box */}
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 order-1">
             <div className="info-box">
               <h3>Me</h3>
               <p>I'm Sam, a Full Stack Web Developer, graduate from the University of Toronto's coding bootcamp. My journey into web development has been fueled by a passion for solving complex problems and creating user-friendly interfaces. I bring enthusiasm, a keen willingness to learn, and a commitment to developing high-quality web solutions. I'm excited to collaborate and grow alongside experienced teams, contributing fresh perspectives and innovative ideas. </p>
@@ -38,7 +37,7 @@ export const About = () => {
           </div>
 
           {/* Education Box */}
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 order-3">
             <div className="info-box">
               <h3>Education</h3>
               <p>University of Toronto Full Stack Development Certificate</p>
