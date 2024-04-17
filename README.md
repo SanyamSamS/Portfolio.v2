@@ -16,6 +16,8 @@ List the main features of your portfolio, such as:
 
 ## Deployment
 [Live link](https://jolly-bublanina-35ca08.netlify.app/)
+![image](https://github.com/SanyamSamS/Portfolio.v2/assets/144437895/27ca587c-8e4d-4ac3-819f-8c11c022ec7b)
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
